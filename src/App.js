@@ -45,7 +45,7 @@ const dataMap = data.map((user) => {
   const { name, id } = user;
   return (
         <div>
-          <h2 onClick={() => fetchPosts(id)}>{name}</h2>
+          <h2 className='users' onClick={() => fetchPosts(id)}>{name}</h2>
         </div>
   )
 }) 
